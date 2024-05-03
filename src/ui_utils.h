@@ -74,6 +74,7 @@ typedef struct GeanyInterfacePrefs
 	gint			openfiles_path_mode;
 	/** number of characters of a filename to be visible on the tab label */
 	gint			tab_label_len;
+	gboolean		confirm_replace_whole_session;	/**< whether to ask for confirmation when replacing across the whole session */
 }
 GeanyInterfacePrefs;
 
